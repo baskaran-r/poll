@@ -28,9 +28,9 @@ spring:
     time-zone: UTC
 
 ## Hibernate Logging
-logging:
-  level:
-    root: DEBUG
+#logging:
+#  level:
+#    root: DEBUG
 #
 #    org:
 #      hibernate:

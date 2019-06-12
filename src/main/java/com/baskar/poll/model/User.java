@@ -31,7 +31,7 @@ public class User extends DateAudit {
     private String username;
 
     @NotBlank
-    @Size(max = 15)
+    @Size(max = 150)
     private String password;
 
     @ManyToMany(fetch = FetchType.LAZY)
